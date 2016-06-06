@@ -35,8 +35,8 @@ var paths = {
   build     :  "build",
   src       :  'src' 
 }
-var resProxy = "//res.tongbanjie.com";
-var prefix = "//res.tongbanjie.com/wap/act/"+jsonObj.name;
+var resProxy = "项目的真实地址";
+var prefix = "项目的真实地址"+jsonObj.name;
 
 if(DEBUGGER) {
 	resProxy = "http://localhost:3000/build";
