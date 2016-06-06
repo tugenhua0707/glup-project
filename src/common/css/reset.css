@@ -1,0 +1,131 @@
+@charset "utf-8";
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0px;
+  padding: 0px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+b,
+i {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+img {
+  vertical-align: top;
+}
+button,
+input[type=subimt],
+input[type=button] {
+  -webkit-appearance: none;
+  border: 0 none;
+}
+body {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  font-size: 0.9em;
+  font-family: "Microsoft Yahei", STHeiTi, sans-serif;
+}
+a,
+img {
+  -webkit-touch-callout: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+a,
+span,
+p,
+div,
+section,
+article {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a,
+article,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+section,
+select,
+span,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+input,
+select,
+textarea,
+button {
+  font-family: "Microsoft Yahei", STHeiTi, sans-serif;
+  outline: 0;
+}
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: '';
+}
